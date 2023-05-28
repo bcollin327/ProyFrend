@@ -5,61 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css" />
     <title>Proyecto</title>
 </head>
 
 <body>
     <header>
-        <h2>CONTENIDO PARA LA CABECERA</h2>
-        <br>
-        <h3>CONTENIDO PARA LA CABECERA</h3>
-        <ul>
-            <li>Grandes ofertas en comederos</li>
-            <li>Menu regional
-                <ul>
-                    <li>Esáñol</li>
-                    <li>$ARG</li>
-                </ul>
-            </li>
-        </ul>
-        <BR></BR>
-        <IMg src="img/logo.png" ; alt="logo"></IMg>
-        <BR></BR>
-        <H2>Barra menu principal</H2>
-        <nav>
-            <ul>
-                <li>Menu principal</li>
-                <ul>
-                    <li>Catergorias</li>
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
-                </ul>
+        <section class="header-container-top">
+            <p>Grandes ofertas en comederos</p>
+            <ul class="header-lista">
+                <li>Espáñol</li>
+                <li>$ARG</li>
             </ul>
-        </nav>
+
+
+        </section>
+        <section class="header-container-bottom">
+            <p class="logo-base">
+                <img src="img/Cat.png" alt="gato" />
+                <span class="logo-first">Front</span>
+                Cat&Dog
+                <img src="img/Dog.png" alt="perro">
+            </p>
+            <nav>
+                <ul class="nav-links">
+                    <ul class="nav-links">
+                        <li>
+                            <img src="img/pawprint 1.png" alt="" /><span>Categorías</span>
+                        </li>
+                        <li><img src="img/pawprint 1.png" alt="" /><span>Pets</span></li>
+                        <li>
+                            <img src="img/pawprint 1.png" alt="" /><span>Nosotros</span>
+                        </li>
+                        <li>
+                            <img src="img/pawprint 1.png" alt="" /><span>Contactanos</span>
+                        </li>
+                    </ul>
+
+
+            </nav>
+
+        </section>
     </header>
+
     <main>
-        <H2>CONTENIDO PARA EL AREA PRINCIPAL</H2>
         <section>
             <img src="img/comedero_huesitos.png" alt="comedero con huesitos" width="1460px">
-            <h3>Seccion banner</h3>
+            <!--<h3>Seccion banner</h3>
             <nav>
-               <LI>Imagen background</LI>
-               <li>Imagen Background</li>
-               <li>Es un placer tenerte aqui!</li>
-               <li>Comederos en descuento!</li>
-               <li>COMEDEROS</li> 
-            </nav>
+                <li>Es un placer tenerte aqui!</li>
+                <li>Comederos en descuento!</li>
+                <li>COMEDEROS</li>
+            </nav>-->
 
         </section>
         <br>
         <section>
-            <h3>Seccion productos</h3>
-            <img src="img/patita.png" alt="patita de perro" ; align="center">
-            <br>
-            <h1 align="center">Productos Destacados</h1>
-            <span>Comederos</span><span>-</span><span>Accesorios</span><span>-</span><span>Comida</span>
-            <br>
+            <section class="patita">
+                <img src="img/patita.png" alt="patita de perro">
+                <br>
+                <h1>Productos Destacados</h1>
+                <nav>
+                    <ul class="menu-destacado">
+                        <li>comederos-</li>
+                        <li>Accesorios-</li>
+                        <li>Comida</li>
+                    </ul>
+
+
+                </nav>
+                <br>
+            </section>
             <img src="img/churrasquito.png" alt="churrasquitos" width="200">
             <p>Juguete churrasquito</p>
             <p>$150</p>
@@ -67,13 +83,15 @@
             <img src="img/comedero_chico.png" alt="comedero chico" width="200">
             <p>Comedero para perro </p>
             <p>$250</p>
-            <br>            
+            <br>
             <img src="img/Huesito.png" alt="juguete huesitos" width="200">
             <p>Juguete huesitos </p>
             <p>$650</p>
-            
+
         </section>
-        <br>   
+        <section class="formulario">
+            <h2>Contáctanos</h2>
+        </section>
 
     </main>
     <footer>
@@ -87,6 +105,7 @@
         <p>Todos los derechos reservados Front End</p>
     </footer>
 </body>
+
 </html>
 
 <!--<!DOCTYPE html>
