@@ -48,6 +48,7 @@
     display: flex;
     justify-content:flex-end;
     align-items: center;
+    padding-right: 10px;
 }
 
 .contenidoBanner{
@@ -84,8 +85,11 @@
 
 .destacados{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
+    text-align: center;
+    margin-top: 50px;
     
 }
 
@@ -108,4 +112,24 @@
     padding: 5px;  
     
     
+}
+
+/*seccion ofertas*/
+
+.contenedorOfertas{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.oferta1, .oferta2, .oferta3{
+    align-items: center;
+    text-align: center;
+    padding-right: 50px;
+    
+}
+
+.precio{
+    color: #F0A83E
 }
